@@ -159,27 +159,37 @@ h3{
         display: block;
         z-index: 5;
     }
+    .content{
+        margin: 10px;
+        padding: 5px 50px;
+         gap: 10px;
+    
+    }
+
     .content img{
         display: none;
     }
     .content h1{
-        font-size: 45px;
+        font-size: 35px;
     }
     .content p{
         font-size: 16px;
-        line-height: 25px;
+        line-height: 20px;
     }
-    .content{
-        padding: 15px 50px;
-        gap: 15px;
+  
+    main{
+        padding: 0px;
+        margin: 0px;
     }
 
 }
 @media  screen and (max-width : 1110px) {
-    .content{
-        padding: 0px 40px;
-        gap: 10px;
-    }
+  .content{
+    padding: 0px 40px;
+    gap: 10px;
+
+  }  
+
     .content h1{
         font-size:40px ;
 
